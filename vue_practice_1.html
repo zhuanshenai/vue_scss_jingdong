@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vue_practice_1</title>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+	<meta http-equiv='X-UA-Compatible' IE='Edge'>
+	<link rel="stylesheet" href='styles/vue_practice_1.css'>
+	<link type='image/x-icon' rel='icon' href='images/favicon.ico'>
+</head>
+<body>
+<div id='app1'>
+	<div class='container'>
+		<div class='box'>
+			<ul>
+				<li v-for='item in pinzhiList'>
+					<a href="javascirpt:;">
+						<div class='inner' :class='item.className'>
+							<h2>{{ item.imgHeader }}</h2>
+							<p>{{ item.imgTitle }}</p>
+						</div>
+						<img :src="item.imgUrl" />
+					</a>
+				</li>
+				<!-- <li>
+					<a href="javascirpt:;">
+						<div class='inner'>
+							<h2>会逛</h2>
+							<p>厨具超级品牌日199减100</p>
+						</div>
+						<img src="images/vue_practice_1_2.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascirpt:;">
+						<div class='inner'>
+							<h2>奢侈大牌</h2>
+							<p>尽享品质生活</p>
+						</div>
+						<img src="images/vue_practice_1_3.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascirpt:;">
+						<div class='inner'>
+							<h2>智能生活</h2>
+							<p>智能潮货，嗨购不停</p>
+						</div>
+						<img src="images/vue_practice_1_4.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascirpt:;">
+						<div class='inner'>
+							<h2>京东超市</h2>
+							<p>精选超值好货天天特价</p>
+						</div>
+						<img src="images/vue_practice_1_5.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascirpt:;">
+						<div class='inner'>
+							<h2>白条商城</h2>
+							<p>最高12期免息</p>
+						</div>
+						<img src="images/vue_practice_1_6.jpg" />
+					</a>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+</div>
+<script src='javascript/vue.js'></script>
+<script src='javascript/vue_practice_1.js'></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+  font: 14px/1 'Microsoft Yahei'; }
+
+h1, h2 {
+  font-weight: normal;
+  font-size: 14px;
+  padding: 0;
+  margin: 0; }
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+img {
+  border: none;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+#app1 .container .box {
+  width: 785px;
+  margin: 20px auto; }
+  #app1 .container .box ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+    #app1 .container .box ul li {
+      width: 385px;
+      height: 170px;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 10px; }
+      #app1 .container .box ul li img {
+        transition: linear 0.2s all; }
+      #app1 .container .box ul li:hover img {
+        transform: translateX(-10px); }
+      #app1 .container .box ul li .inner {
+        height: 100%;
+        width: 135px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        position: absolute;
+        z-index: 99; }
+        #app1 .container .box ul li .inner h2 {
+          font-size: 20px;
+          color: #fff;
+          line-height: 1;
+          padding-top: 8px;
+          padding-bottom: 12px;
+          border: 2px solid #fff;
+            border-left: 0;
+            border-right: 0;
+          width: 100px;
+          text-align: center; }
+        #app1 .container .box ul li .inner p {
+          font-size: 14px;
+          color: #fff;
+          line-height: 16px;
+          margin-top: 10px;
+          width: 100px; }
+      #app1 .container .box ul li .new_goods {
+        background: #72bb90; }
+      #app1 .container .box ul li .guang {
+        background: #ddd279; }
+      #app1 .container .box ul li .she {
+        background: #5d5566; }
+      #app1 .container .box ul li .zhineng {
+        background: #498c94; }
+      #app1 .container .box ul li .chaoshi {
+        background: #d78e28; }
+      #app1 .container .box ul li .baitiao {
+        background: #876350; }
+
+/*# sourceMappingURL=vue_practice_1.css.map */
